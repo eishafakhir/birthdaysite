@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Example of CSS media query for mobile devices */
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for smaller screens */
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #header {
+                text-align: center;
+            }
+            #pic {
+                max-width: 100%;
+                height: auto;
+            }
+            .gift-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Today is Eisha's birthday!🍰</h1>
+        <img id="pic" src="images/picture.jpg">
+        <h3 id="bday-age">Eisha turned 20 today :) </h3>
+        <h4 id="bday-date">D.O.B:28/10</h4>
+    </div>
+    <div class="gift-section">
+        <h2 class="gift-title">Here's how happy i am for you today!🥹</h2> 
+        <h3 class="gift-hint">(hover over the gift)</h3>
+        <div class="gift-img" id="gift-img-happy"></div>
+    </div>
+    <div class="gift-section">
+        <h2 class="gift-title">How people would react when you enter the room😌</h2> 
+        <div class="gift-img" id="gift-img-react"></div>
+    </div>
+    <div class="gift-section">
+        <h2 class="gift-title">If I had to describe you with one word🤪</h2> 
+        <div class="gift-img" id="gift-img-genius"></div>
+    </div>
+    <div class="gift-section">
+        <h2 class="gift-title">This is for you,my friend!✨🥺</h2> 
+        <div class="gift-img" id="gift-img-flower"></div>
+    </div>
+</body>
+</html>
